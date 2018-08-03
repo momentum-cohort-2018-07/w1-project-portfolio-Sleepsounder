@@ -1,0 +1,102 @@
+ * {
+    box-sizing: border-box;
+  }
+  
+html {
+    background-color: rgb(163, 185, 255);
+    border: solid black 8px;
+
+}
+
+body {
+    font-family: "Benton Sans", helvetica;
+    border: solid black 4px;
+    max-width: 700px;
+    background-color: rgb(211, 255, 214);
+    padding: 3rem;
+}
+
+.nav {
+    list-style-type: none;
+    text-align: right;
+    border: solid black 1px;
+    background-color: salmon;
+    
+}
+
+.nav li {
+    padding: 0 10%;
+}
+
+.nav li a {
+    background-color: bisque;
+    border: solid black 1px;
+    display: block;
+    width: 25%;
+    color: black;
+    text-decoration: none;
+    text-align:center;
+}
+
+.nav li a:hover {
+    background-color: #555;
+    color: white;
+
+} 
+
+.all_about_me {
+    border: solid black 1px;
+    padding: 3rem;
+}
+
+.main_photo {
+    display: block;
+    margin-left: auto;
+    margin-right: 33%;
+    max-width: 70%;
+    background-color: honeydew;
+
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer li a {
+    text-decoration: none;
+}
+/*
+.flexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: space-between;
+    background-color: #26C6FC;
+    padding: 200px;
+    flex-direction: row;
+  }
+
+.flexItem {
+max-width:300px;
+padding:15px;
+flex-shrink: 3;
+}
+
+.homeButton {
+    order: 1;
+}
+
+.skillsButton {
+    order: 2;
+}
+
+.whatIDone {
+    order: 3;
+}
+*/
+
+/* p {
+    border: solid black 8px;
+    padding: 7rem;
+}  */
