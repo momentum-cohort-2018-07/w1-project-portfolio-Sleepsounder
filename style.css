@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: bookman, "Benton Sans", helvetica;
-    border: solid black 7px;
+    /* border: solid black 7px; */
     min-width: 378px;
     background-color: #ECE5F0;
     padding: 3rem;
@@ -32,9 +32,21 @@ body {
     padding: 0 10%;
 }
 
+.homeButton {
+    margin: 0 12px 0 20px;
+}
+
+.skillsButton {
+    margin: 0 15px 0 8px;
+}
+
+.whatIDone {
+    margin: 0 6px 0 60px;
+}
+
 .nav li a {
     background-color: rgb(231, 184, 125);;
-    border: solid black 2px;
+    /* border: solid black 2px; */
     display: block;
     /* width: 25%; */
     color: black;
@@ -49,23 +61,25 @@ body {
 } 
 
 .all_about_me {
-    border: solid black 3px;
-    padding: 3rem;
+    /* border: solid black 3px; */
+    padding: 1rem;
 }
 
 .main_photo {
     display: block;
-    margin-left: auto;
+    min-width: 150px;
     margin-right: 33%;
     max-width: 70%;
-    background-color: honeydew;
+    padding: 2rem;
+    /* background-color: honeydew; */
 
 }
 
 .page_title {
     font-family: bookman, impact, Arial, Helvetica, sans-serif;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding: 1rem;
+    margin: 12px 0 5px 60px;
     color: #ECE5F0;
     background-color: #59114D;
 }
@@ -73,13 +87,14 @@ body {
 p {
     padding: 1rem;
     background-color: rgb(231, 184, 125);
-    border: solid black 1px;
+    /* border: solid black 1px; */
     font-weight: 100;
+    margin: 30px 25px 5px 12px;
 }
 
 .footer {
     background-color: #0a3834;
-    border: solid black 2px;
+    /* border: solid black 2px; */
 
 }
 
