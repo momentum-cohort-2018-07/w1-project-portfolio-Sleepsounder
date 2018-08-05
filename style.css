@@ -1,5 +1,5 @@
  * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
   }
@@ -18,10 +18,13 @@ body {
     margin: 1rem;
 }
 
-.nav {
+header {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    width: 100%;
+}
+.nav {
     list-style-type: none;
     text-align: right;
     border-left: solid black 3px;
@@ -39,11 +42,13 @@ body {
     margin: 0 12px 0 20px;
 }
 
-.skillsButton {
+
+
+.whatIDone {
     margin: 0 15px 0 8px;
 }
 
-.whatIDone {
+.skillsButton {
     margin: 0 6px 0 60px;
 }
 
@@ -70,8 +75,8 @@ body {
 
 img {
     display: inline-block;
-    min-width: 150px;
-    max-width: 62%;
+    min-width: 275px;
+    max-width: 700px;
     padding: 2rem;  
     /* background-color: honeydew; */
 
@@ -128,7 +133,7 @@ padding: 1rem;
     color: #ECE5F0;
     text-decoration: underline;
 }
-
+/* 
 @media screen and (max-width: 767px) {
 
 body {
@@ -145,7 +150,7 @@ body {
     body {
       max-width: 80%;
     }
-  
+   */
 /*
 .flexContainer {
     display: flex;
