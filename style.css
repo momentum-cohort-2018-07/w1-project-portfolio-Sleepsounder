@@ -126,15 +126,39 @@ img {
     border: solid black 2px;
 }
 
+#resume_title {
+    border-bottom: solid black 2px;
+}
+
+#resume_name {
+    color: rgb(26, 9, 17);
+    padding-top: 2rem;
+}
+
+#section_1 {
+    text-align: right; 
+}
+
+#section_2 {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: solid black 2px;
+}
+
+
+.skills_text {
+    background: #0a1538;
+    color:#ECE5F0;
+    /* margin-top: 2rem; */
+}
+
 .resume_sections {
     padding-top: 2rem;
 }
+
 .resume_sections li {
     margin-left: 2rem;
-}
-
-#service_industry_header {
-    text-align: right;
+    text-align: left;
 }
 
 .footer {
@@ -168,11 +192,11 @@ padding: 1rem;
     text-decoration: underline;
 }
 
-.site_name {
+.my_site_name {
     padding-top: 2rem;
 }
 
-.site_description {
+.my_site_description {
     background: none;
 }
 
