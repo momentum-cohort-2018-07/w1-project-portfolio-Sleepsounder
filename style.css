@@ -1,15 +1,16 @@
  * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
 html {
-    background-color: rgb(163, 185, 255);
+    /* background-color: rgb(163, 185, 255); */
 
 }
 
 body {
+    max-width: 300px;
     font-family: bookman, "Benton Sans", helvetica;
     /* border: solid black 7px; */
     min-width: 378px;
@@ -27,9 +28,10 @@ header {
 .nav {
     list-style-type: none;
     text-align: right;
-    border-left: solid black 3px;
+    border-bottom: solid black 3px;
+    /* border-left: solid black 3px;
     border-right:solid black 3px;
-    border-top: solid black 3px;
+    border-top: solid black 3px; */
     background-color: #0a3834;
     
 }
@@ -74,12 +76,17 @@ header {
 }
 
 img {
+
     display: inline-block;
     min-width: 275px;
-    max-width: 700px;
+    max-width: 100%;
     padding: 2rem;  
     /* background-color: honeydew; */
 
+}
+
+.main_photo {
+    max-width: 70%;
 }
 
 .second_photo {
@@ -98,11 +105,26 @@ img {
 }
 
 p {
-    padding: 1rem;
+    padding: .5rem;
     background-color: rgb(231, 184, 125);
     /* border: solid black 1px; */
     font-weight: 100;
-    margin: 30px 25px 5px 12px;
+    /* margin: 30px 25px 5px 12px; */
+}
+
+.resume_photo {
+    max-width:70%;
+}
+
+.resume_sections {
+    padding-top: 2rem;
+}
+.resume_sections li {
+    margin-left: 2rem;
+}
+
+#service_industry_header {
+    text-align: right;
 }
 
 .footer {
@@ -133,8 +155,16 @@ padding: 1rem;
     color: #ECE5F0;
     text-decoration: underline;
 }
-/* 
-@media screen and (max-width: 767px) {
+
+.site_name {
+    padding-top: 2rem;
+}
+
+.site_description {
+    background: none;
+}
+
+/* @media screen and (max-width: 767px) {
 
 body {
     background-color: rgb(152, 177, 152);
@@ -143,14 +173,30 @@ body {
 .second_photo {
     display: none;
  } 
-}
+
+ #service_industry_header {
+     text-align: right;
+ }
+} */
 
 
 @media screen and (min-width: 768px) {
-    body {
+    /* body {
       max-width: 80%;
+    } */
+
+    #service_industry_header {
+      text-align: left;
     }
-   */
+
+
+}
+
+
+
+
+
+
 /*
 .flexContainer {
     display: flex;
