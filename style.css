@@ -1,0 +1,405 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+html {
+    background-color: rgb(163, 185, 255);
+
+}
+
+body {
+    /* max-width: 300px; */
+    font-family: bookman, "Benton Sans", helvetica;
+    /* border: solid black 7px; */
+    min-width: 378px;
+    background-color: #ECE5F0;
+    padding: .5rem;
+
+}
+
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.nav {
+    list-style-type: none;
+    text-align: right;
+    border-bottom: solid #696BE4 5px;
+    border-right: solid #696BE4 5px;
+    background-color: #0a1538;
+    
+}
+
+.nav li {
+    padding: 0 10%;
+}
+
+.homeButton {
+    margin: 0 12px 0 20px;
+}
+
+.whatIDone {
+    margin: 0 15px 0 8px;
+}
+
+.skillsButton {
+    margin: 0 6px 0 60px;
+}
+
+.nav li a {
+    background-color: rgb(224, 204, 178);;
+    /* border: solid black 2px; */
+    display: block;
+    /* width: 25%; */
+    color: black;
+    text-decoration: none;
+    text-align:center;
+}
+
+.nav li a:hover {
+    background-color: #555;
+    color: white;
+
+} 
+
+.all_about_me {
+    /* border: solid black 3px; */
+    padding: .5rem;
+}
+
+img {
+
+    display: inline-block;
+    min-width: 275px;
+    max-width: 100%;
+    /* background-color: honeydew; */
+
+}
+
+.main_photo {
+    max-width: 80%;
+    padding: 1rem;  
+}
+
+
+.second_photo {
+    max-width: 30%;
+    display:inline-block;
+    margin-left: 60%;
+    margin-bottom: 2rem;
+    /* float: right; */
+    
+    
+}
+
+.page_title {
+    font-family: impact, Arial, Helvetica, sans-serif;
+    /* border: solid black 1px; */
+    padding: 1rem;
+    padding-left: 3.9rem;
+    /* margin: 12px 40px 5px 12px; */
+    margin: .2rem;
+    margin-left: 2rem;
+    font-weight: normal;
+    color: #ECE5F0;
+    background-color: #59114D;
+}
+
+
+
+.skills_text {
+    background: #0a1538;
+    color:#ECE5F0;
+}
+.resume_photo {
+    max-width:25%;
+    margin-top: 7px;
+    /* background: red; */
+}
+
+.resume_main_header {
+    /* background:green; */
+}
+
+.resume_sections {
+    /* background:yellow; */
+}
+
+#resume_title {
+    border-bottom: solid black 2px;
+}
+
+.resume_header {
+    text-align: right;
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+
+#resume_name {
+    color: rgb(26, 9, 17);
+}
+
+#section_2 {
+    padding: .5rem;
+    /* margin-top: 2rem; */
+    border-top: solid black 2px;
+}
+
+
+#areas_of_expertise {
+    margin-bottom: .5rem;
+}
+
+#section_3 {
+    padding: .5rem;
+    border-top: solid black 2px;
+    /* background: blue; */
+}
+
+#section_3 li {
+    list-style-type: none;
+}
+
+#work_experience {
+    /* margin-bottom: .5rem; */
+}
+
+#section_4 {
+    border-top: solid black 2px;
+}
+
+.resume_sections {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.resume_sections li {
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.footer1 {
+background-color: #0a3834;
+padding: 1rem;
+
+}
+
+.footer2 {
+    background-color: #0a3834;
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+
+.footer li {
+    color: #ECE5F0;
+    list-style-type: none;
+    font-weight: 4;
+    text-align: center;
+}
+
+.footer li a {
+
+    color: #ECE5F0;
+    text-decoration: underline;
+}
+
+.site {
+    padding-bottom: 3rem;
+}
+
+.my_site_name {
+    padding-top: 2rem;
+}
+
+.site_description {
+    background:#0a1538;
+    color: #ECE5F0;
+}
+
+@media screen and (max-width: 420px) {
+
+/* body {
+  background-color: rgb(152, 177, 152);
+} */
+
+.second_photo {
+    display: none;
+} 
+
+.main_photo_desktop {
+    display: none;
+}
+
+p { 
+    margin: .5rem;
+    padding: 1rem;
+    border: solid black 1px;
+    margin-right: 3rem;
+}
+
+.site_description {
+    margin: 0;
+    padding: .3rem;
+}
+}
+
+
+@media screen and (min-width: 421px) {
+
+    #service_industry_header {
+      text-align: left;
+    }
+
+    body {
+        padding:0;
+    }
+
+    .nav {
+        border-left: solid black 2px;
+        border-right:solid black 2px;
+        border-top: solid black 2px;
+        border-bottom: solid black 2px;
+    }
+    .nav li a {
+        border: solid black 1px;
+    }
+
+    .page_title {
+        margin: 0;
+    }
+
+    .main_photo_mobile {
+        display: none; 
+    }
+
+    .main_photo_desktop {
+        max-width: 40%;
+        padding: 1rem;
+    }
+
+    .red_box {
+        /* background: red; */
+        display: inline-block;
+        padding: .5rem;
+        margin-top: 13%;
+        margin-right:13%;
+        float: right;
+        width:40%;
+        max-height: 400px;
+        border-top: solid black 3px;
+        border-bottom: solid black 3px;
+    
+    }
+    
+    .red_box p {
+        display: block;
+        width: 100%;
+        font-size: 100%;
+        max-height: 100%;
+    }
+
+.resume {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+
+}
+
+#resume_name {
+    font-size: 1.5rem;
+}
+
+#resume_title {
+    text-align: center;
+}
+
+.resume_header {
+    text-align: left;
+
+}
+
+.resume_main_header {
+    padding: 1rem;
+}
+
+.resume_sections {
+    padding: 1rem;
+}
+
+.skills_text {
+    padding: .5rem;
+    color: black;
+    background: none;
+}
+
+#section_3 {
+    padding-left: 20rem;
+}
+
+#section_3 li {
+    padding-left: 1rem;
+}
+
+#section_4 {
+    padding:.5rem;
+    padding-left:20rem;
+}
+
+.site {
+     padding: 4rem;
+}
+
+.site p {
+    text-align: center;
+    margin: 1rem 9rem;
+}
+
+}
+
+
+
+
+
+
+
+
+/*
+.flexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: space-between;
+    background-color: #26C6FC;
+    padding: 200px;
+    flex-direction: row;
+  }
+
+.flexItem {
+max-width:300px;
+padding:15px;
+flex-shrink: 3;
+}
+
+.homeButton {
+    order: 1;
+}
+
+.skillsButton {
+    order: 2;
+}
+
+.whatIDone {
+    order: 3;
+}
+*/
+
+/* p {
+    border: solid black 8px;
+    padding: 7rem;
+}  */
